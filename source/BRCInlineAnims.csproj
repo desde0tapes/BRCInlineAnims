@@ -1,0 +1,47 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<AssemblyName>BRCInlineAnims</AssemblyName>
+		<Description>Forced Inline animation overrides for BRC</Description>
+		<Version>4.4.2</Version>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+		<LangVersion>latest</LangVersion>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\Bomb Rush Cyberfunk_Data\Managed\Assembly-CSharp.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\Bomb Rush Cyberfunk_Data\Managed\UnityEngine.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="UnityEngine.CoreModule">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\Bomb Rush Cyberfunk_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="UnityEngine.AnimationModule">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\Bomb Rush Cyberfunk_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="UnityEngine.InputLegacyModule">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\Bomb Rush Cyberfunk_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="BepInEx">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\BepInEx\core\BepInEx.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>C:\Program Files (x86)\Steam\steamapps\common\BombRushCyberfunk\BepInEx\core\0Harmony.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="BepInEx.Core" Version="5.4.21" />
+	</ItemGroup>
+
+</Project>

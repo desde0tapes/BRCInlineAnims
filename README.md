@@ -1,5 +1,6 @@
-<img width="722" height="582" alt="gjiwa4ijgjwiga" src="https://github.com/user-attachments/assets/1bcc0fbf-01cd-4ce8-90b0-58834d71e31c" /># BRCInlineAnims
-BunchOfEmotes, Base emotes for Inline Skating, Inline Idle, Inline Boosting + Running!
+## BRCInlineAnims
+
+### BunchOfEmotes, Base emotes for Inline Skating, Inline Idle, Inline Boosting + Running!
 
 ---
 
